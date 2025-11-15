@@ -111,9 +111,9 @@ export default function Home() {
 
                   {/* Bottom Row: Add icon and Buttons */}
                   <div className="flex items-center gap-4">
-                    <button className="bg-white border-2 border-[#62D732] rounded-xl px-4 py-2 flex items-center gap-2">
+                      <button className="bg-white border-2 border-[#62D732] rounded-xl px-4 py-2 flex items-center gap-2">
                       <span className="text-2xl">+</span>
-                      <Image src="/dashboard/vector.png" alt="Fox" width={24} height={24} />
+                      <Image src="/dashboard/vector.svg" alt="Fox" width={24} height={24} />
                     </button>
                     <div className="flex gap-3 ml-auto">
                       <Link href="/mint" className="bg-[#62D732] border-2 border-[#309C04] text-white font-sigmar font-bold px-6 py-2 rounded-lg shadow-[0_4px_0_#309C04] flex items-center justify-center">Mint</Link>
